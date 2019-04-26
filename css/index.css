@@ -85,13 +85,18 @@ header img {
     width: 15%;
 }
 
-header .logo img {
-    width: 80%;
+header a {
+    /* display: inline-block; */
+    width: 15%;
+}
+
+header a img {
+    width: 100%;
 }
 
 header nav {
     width: 70%;
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 header nav ul {
@@ -256,4 +261,9 @@ section.bottom-about .text-container {
     margin: 20px 0 10px 0;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.contact-banner {
+    width: 100%;
+    height: auto;
 }
