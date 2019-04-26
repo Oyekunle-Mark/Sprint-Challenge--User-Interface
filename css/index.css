@@ -263,15 +263,16 @@ section.bottom-about .text-container {
     border-radius: 10px;
 }
 
-.contact-banner {
+
+.contact-banner, .banner {
     width: 100%;
     height: auto;
     animation-name: contact;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 @keyframes contact {
-    0% {opacity: 0.0;}
+    0% {opacity: 0.1;}
     20% {opacity: 0.2;}
     40% {opacity: 0.4;}
     60% {opacity: 0.6;}
