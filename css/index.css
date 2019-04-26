@@ -257,7 +257,7 @@ section.bottom-about .text-container {
 
 .card-list .card button {
     font-size: 15px;
-    padding: 7px 20px 7px 20px;
+    padding: 7px 20px;
     margin: 20px 0 10px 0;
     border: 2px solid black;
     border-radius: 10px;
@@ -266,6 +266,17 @@ section.bottom-about .text-container {
 .contact-banner {
     width: 100%;
     height: auto;
+    animation-name: contact;
+    animation-duration: 2s;
+}
+
+@keyframes contact {
+    0% {opacity: 0.0;}
+    20% {opacity: 0.2;}
+    40% {opacity: 0.4;}
+    60% {opacity: 0.6;}
+    80% {opacity: 0.8;}
+    100% {opacity: 1;}
 }
 
 .form {
