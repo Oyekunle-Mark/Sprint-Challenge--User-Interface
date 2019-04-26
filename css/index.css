@@ -67,8 +67,36 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+header img {
+    width: 15%;
+}
+
+header nav {
+    width: 70%;
+    margin-top: 18px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner {
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -129,6 +157,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: auto;
 }
 
 footer nav {
