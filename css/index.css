@@ -279,7 +279,7 @@ form {
     align-items: center;
     margin: 70px 0;
     padding: 50px;
-    width: 50%;
+    width: 60%;
     border: 2px solid gray;
     border-radius: 20px;
 }
@@ -296,7 +296,7 @@ form input {
 form textarea {
     width: 90%;
     font-size: 15px;
-    height: 120px;
+    height: 150px;
     margin: 10px 0;
     border: 1px solid black;
     border-radius: 5px;
@@ -306,7 +306,8 @@ form button {
     width: 50%;
     margin: 20px 0;
     font-size: 15px;
-    background: white;
+    background: black;
+    color: white;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
